@@ -12,10 +12,9 @@ var fullPrice = (function (){
 		var getPrice = document.getElementById('sns-base-price').innerHTML;
 	return getPrice; 
 } 
-else if (document.getElementById('unqualified')){
-	var section = document.getElementById('unqualified');
-	var availableFrom = section.getElementsByClassName('a-color-price')[0].innerText;
-	return availableFrom;
+else if (document.getElementById('a-offscreen')){
+	var getPrice = document.getElementById('a-offscreen').innerHTML;
+return getPrice; 
 
 } else if (document.getElementById('outOfStock')) {
 	return "Out Of Stock";
