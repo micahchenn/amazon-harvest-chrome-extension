@@ -8,8 +8,8 @@ chrome.runtime.sendMessage(
 //Get Price
 
 var fullPrice = (function (){
-	if(document.getElementById('priceblock_ourprice')){
-		var getPrice = document.getElementById('priceblock_ourprice').innerHTML;
+	if(document.getElementById('sns-base-price')){
+		var getPrice = document.getElementById('sns-base-price').innerHTML;
 	return getPrice; 
 } 
 else if (document.getElementById('unqualified')){
