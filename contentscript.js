@@ -6,25 +6,9 @@ chrome.runtime.sendMessage(
 
 
 //Get Price
-let price
-const result = await page.evaluate(() => {
-	price = document.querySelector('#priceblock_ourprice').innerText;
-	
-}
-
-
-)
-
-
-
-
-
 
 var fullPrice = (function (){
-
-
-
-	if(document.getElementById('sns-base-price')){
+if(document.getElementById('sns-base-price')){
 		var getPrice = document.getElementById('sns-base-price').innerHTML;
 	return getPrice; 
 } 
