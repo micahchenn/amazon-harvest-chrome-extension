@@ -21,9 +21,9 @@ const result = await page.evaluate(() => {
 
 
 var fullPrice = (function (){
-return price
 
-	/*
+
+
 	if(document.getElementById('sns-base-price')){
 		var getPrice = document.getElementById('sns-base-price').innerHTML;
 	return getPrice; 
@@ -46,8 +46,7 @@ return getPrice;
   return 'N/A'
 
 
-  */
-
+  
 })();
 
 
